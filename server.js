@@ -47,9 +47,6 @@ if (app.get('env') === 'development') {
 	});
 }
 
-// Set Database
-// For this project is not require a database, just a JSON file.
-
 // Middlewares
 app.use(compression({
 	threshold: 1

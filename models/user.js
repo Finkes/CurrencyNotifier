@@ -21,6 +21,7 @@ UserSchema.methods.sendPush = function(data, cb) {
 	pusher.trigger(self._id.toString(), 'currencyGoUp', {
 		message: data.codestring + 'has gone up'
 	});
+	cb(null);
 };
 
 module.exports = mongoose.model('User', UserSchema);
