@@ -44,7 +44,7 @@ agenda.define('updateCurrencies', function(job, done) {
 	done();
 });
 
-agenda.every('120 seconds', 'updateCurrencies');
+agenda.every('1 hour', 'updateCurrencies');
 
 agenda.start();
 
