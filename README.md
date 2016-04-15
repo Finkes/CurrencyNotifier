@@ -1,6 +1,6 @@
 # CurrencyNotifier
 Users can subscribe to currencies they are interested in and receive a push notification If currency value goes up.
-Furtheremore, every hour the value of this currencies are updated.
+Furtheremore, every hour the values of these currencies are updated.
 
 ## Run project
 
