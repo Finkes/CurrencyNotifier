@@ -6,6 +6,6 @@ module.exports.getPrice = function(base, codestring, cb) {
 	request.get('https://api-fxtrade.oanda.com/v1/prices?instruments=' + codestring + '_' + base, function(err, response, body) {
 		if (response.statusCode !== 200)
 			err = JSON.parse(body);
-		cb(err, body);
+		cb(err, JSON.parse(body));
 	});
 };
