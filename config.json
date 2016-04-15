@@ -1,0 +1,38 @@
+{
+	"local": {
+		"cookie": {
+			"parser": "agilggsdo947wernLHR049uKp98CLksjO",
+			"key": "Ohlala-Dev-Token"
+		},
+		"mongodb": {
+			"url": "mongodb://localhost:27017/Ohlala",
+			"autoReconnect": true,
+			"autoRemove": "native",
+			"autoRemoveInterval": 10,
+			"seed": false
+		},
+		"pusher": {
+			"app_id": 198083,
+			"key": "ac34a634aad3f7175968",
+			"secret": "ee9bad4686f0c4fd8541"
+		}
+	},
+	"test": {
+		"cookie": {
+			"parser": "agilggsdo947wernLHR049uKp98CLksjO",
+			"key": "Ohlala-Dev-Token"
+		},
+		"mongodb": {
+			"url": "mongodb://localhost:27017/Ohlala-test",
+			"autoReconnect": true,
+			"autoRemove": "native",
+			"autoRemoveInterval": 10,
+			"seed": true
+		},
+		"pusher": {
+			"app_id": 198083,
+			"key": "ac34a634aad3f7175968",
+			"secret": "ee9bad4686f0c4fd8541"
+		}
+	}
+}

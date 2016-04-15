@@ -1,0 +1,44 @@
+{
+  "name": "Ohlala",
+  "version": "1.0.0",
+  "description": "Ohlala",
+  "main": "/jsonp",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "l4"
+  ],
+  "author": "Sebastian Vizcaino",
+  "license": "ISC",
+  "dependencies": {
+    "agenda": "0.6.28",
+    "async": "^1.3.0",
+    "body-parser": "^1.6.1",
+    "compression": "^1.0.11",
+    "connect-busboy": "0.0.2",
+    "connect-mongo": "0.8.2",
+    "cookie-parser": "^1.3.5",
+    "csurf": "^1.8.3",
+    "deep-extend": "^0.4.0",
+    "errorhandler": "^1.1.1",
+    "express": "^4.0.0",
+    "express-session": "^1.11.3",
+    "glob": "git+https://github.com/isaacs/node-glob.git",
+    "jade": "^1.11.0",
+    "lodash": "3.10.1",
+    "mongoose": "4.0.2",
+    "morgan": "^1.6.1",
+    "pusher": "^1.2.1",
+    "request": "^2.63.0",
+    "response-time": "^2.3.1",
+    "restize": "git://github.com/inmediaco/restize.git",
+    "serve-favicon": "^2.3.0",
+    "twitter": "^1.2.5"
+  },
+  "devDependencies": {
+    "should": "^8.3.1",
+    "sinon": "^1.17.3",
+    "supertest": "^1.2.0"
+  }
+}
