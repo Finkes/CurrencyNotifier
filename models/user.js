@@ -14,7 +14,7 @@ var UserSchema = new Schema({
 });
 
 /**
- * Send a push notification to a user. Channel is a unique user id
+ * Send a push notification to an user. Channel is an unique user id
  */
 UserSchema.methods.sendPush = function(data, cb) {
 	var self = this;
