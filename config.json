@@ -9,7 +9,7 @@
 			"autoReconnect": true,
 			"autoRemove": "native",
 			"autoRemoveInterval": 10,
-			"seed": false
+			"seed": true
 		},
 		"pusher": {
 			"app_id": 198083,
